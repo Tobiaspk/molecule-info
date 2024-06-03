@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "molecule-info"
+version = "0.2.1"
+description = ""
+authors = ["tobiaspk <tobiaspk1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+anndata = "^0.10.5.post1"
+h5py = "^3.10.0"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
