@@ -6,4 +6,5 @@ def get_package_location():
         return importlib.resources.files("molecule_info")
     except:
         # earlier python versions
-        return importlib.resources.path("molecule_info", "")
+        import os
+        return os.path.dirname(os.path.dirname(__file__))
